@@ -60,7 +60,7 @@ key information on which this repository is based:
 * [My Keys (Rutkowska)](http://blog.invisiblethings.org/keys/)
 * [rootkovska/rootkovska.github.io](https://github.com/rootkovska/rootkovska.github.io/)
 
-** License/Copyrights
+## License/Copyrights
 
 This repo is licensed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
