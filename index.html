@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Keys of Steffen Prince (sprin)</title>
+</head>
+<body>
+<html>
+<head>
+</head>
+<body>
+<div>
+<h1>Keys of Steffen Prince (sprin) <a href="mailto:steffen@sprin.io">steffen@sprin.io</a></h1>
+
+<p>I use tools based on <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">the OpenPGP
+standard</a> and <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">the
+X.509 standard</a> to
+do <a href="https://en.wikipedia.org/wiki/Public-key_encryption">encryption</a> of private
+messages and <a href="https://en.wikipedia.org/wiki/Digital_signature">signing</a> of
+documents, code, public messages.</p>
+
+<h2>The Master Key</h2>
+
+<p>All my keys are signed by the following Master Signing Key:</p>
+
+<pre><code>pub   4096R/3006E021 2016-07-05
+      Key fingerprint = D0A6 F47A 49D6 7A7D 0369  4BE0 A587 D405 3006 E021
+uid                  Steffen Prince (Master Signing Key) &lt;steffen@sprin.io&gt;
+</code></pre>
+
+<p>You should verify the fingerprint of this master key using some other channel
+than just this repo (e.g. my <a href="https://news.ycombinator.com/user?id=sprin">Hacker News
+account</a> or from
+https://keys.sprin.io) as in case somebody was providing you with a falsified
+repo, they would be sure to also feed you with a falsified master key.</p>
+
+<ul>
+<li>The key is attached here: <a href="/sprin-master-key.asc">sprin-master-key.asc</a>.</li>
+</ul>
+
+<h2>sprin.io Code Signing Key</h2>
+
+<p>The following key is used to sign projects managed by sprin.io:</p>
+
+<pre><code>pub   4096R/C489978F 2016-07-08
+      Key fingerprint = BDAD A52E 42FE 70F6 A3B6  66E6 6FFD 3241 C489 978F
+uid                  Steffen Prince (sprin.io Code Signing Key) &lt;steffen@sprin.io&gt;
+
+gpg&gt; check
+uid  Steffen Prince (sprin.io Code Signing Key) &lt;steffen@sprin.io&gt;
+sig!3        C489978F 2016-07-08  [self-signature]
+sig!         3006E021 2016-07-08  Steffen Prince (Master Signing Key) &lt;steffen@s
+</code></pre>
+
+<ul>
+<li>The key is attached here: <a href="/sprin-io-code-signing-key.asc">sprin-io-code-signing-key.asc</a>.</li>
+</ul>
+
+<h2>Credits</h2>
+
+<p>Credits to <a href="https://www.qubes-os.org/">Qubes OS Project</a> for a good example of
+code-signing in action and the excellent &quot;Split GPG&quot; mechanism which
+dramatically minimizes the risk of compromise of the signing mechanism:</p>
+
+<ul>
+<li><a href="https://www.qubes-os.org/doc/verifying-signatures/">On Digital Signatures and Key Verification</a></li>
+<li><a href="https://www.qubes-os.org/doc/split-gpg/">Qubes Split GPG</a></li>
+</ul>
+
+<p>Credits to <a href="http://blog.invisiblethings.org/">Joanna Rutkowska</a> of <a href="https://www.qubes-os.org/">Qubes
+OS</a> and <a href="http://invisiblethingslab.com/">Invisible Things
+Lab</a> for a nice template on how to self-publish
+key information on which this repository is based:</p>
+
+<ul>
+<li><a href="http://blog.invisiblethings.org/keys/">My Keys (Rutkowska)</a></li>
+<li><a href="https://github.com/rootkovska/rootkovska.github.io/">rootkovska/rootkovska.github.io</a></li>
+</ul>
+
+<h2>License/Copyrights</h2>
+
+<p>This repo is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+License</a>.</p>
+
+</div>
+</body>
+</html>
