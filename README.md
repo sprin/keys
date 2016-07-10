@@ -1,4 +1,4 @@
-# Keys of Steffen Prince (sprin) <steffen@sprin.io>
+# Keys of Steffen Prince (sprin) &lt;<steffen@sprin.io>&gt;
 
 I use tools based on [the OpenPGP
 standard](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) and [the
@@ -20,10 +20,11 @@ uid                  Steffen Prince (Master Signing Key) <steffen@sprin.io>
 You should verify the fingerprint of this master key using some other channel
 than just this repo (e.g. my [Hacker News
 account](https://news.ycombinator.com/user?id=sprin) or from
-https://keys.sprin.io) as in case somebody was providing you with a falsified
-repo, they would be sure to also feed you with a falsified master key.
+[keys.sprin.io](https://keys.sprin.io) as in case somebody was providing you
+with a falsified repo, they would be sure to also feed you with a falsified
+master key.
 
-* The key is attached here: [sprin-master-key.asc](/sprin-master-key.asc).
+* The key is attached here: [sprin-master-key.asc](/keys/sprin-master-key.asc).
 
 ## sprin.io Code Signing Key
 
@@ -40,7 +41,7 @@ sig!3        C489978F 2016-07-08  [self-signature]
 sig!         3006E021 2016-07-08  Steffen Prince (Master Signing Key) <steffen@s
 ```
 
-* The key is attached here: [sprin-io-code-signing-key.asc](/sprin-io-code-signing-key.asc).
+* The key is attached here: [sprin-io-code-signing-key.asc](/keys/sprin-io-code-signing-key.asc).
 
 ## Credits
 
