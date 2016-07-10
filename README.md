@@ -43,6 +43,23 @@ sig!         3006E021 2016-07-08  Steffen Prince (Master Signing Key) <steffen@s
 
 * The key is attached here: [sprin-io-code-signing-key.asc](/keys/sprin-io-code-signing-key.asc).
 
+## Public Message Signing Key
+
+The following key is used to sign public messages, such as on mailing lists:
+
+```
+pub   4096R/B7C90242 2016-07-10 [expires: 2017-07-10]
+      Key fingerprint = DF90 32E9 0713 B88A 9DC9  EFA0 D71A 2E4C B7C9 0242
+uid                  Steffen Prince (Public Message Signing Key) <steffen@sprin.io>
+
+gpg> check
+uid  Steffen Prince (Public Message Signing Key) <steffen@sprin.io>
+sig!3        B7C90242 2016-07-10  [self-signature]
+sig!         3006E021 2016-07-10  Steffen Prince (Master Signing Key) <steffen@s
+```
+
+* The key is attached here: [public-message-signing-key.asc](/keys/public-message-signing-key.asc).
+
 ## Credits
 
 Credits to [Qubes OS Project](https://www.qubes-os.org/) for a good example of
