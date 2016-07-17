@@ -13,11 +13,10 @@
 <h1>Keys of Steffen Prince (sprin) &lt;<a href="mailto:steffen@sprin.io">steffen@sprin.io</a>&gt;</h1>
 
 <p>I use tools based on <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">the OpenPGP
-standard</a> and <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">the
-X.509 standard</a> to
-do <a href="https://en.wikipedia.org/wiki/Public-key_encryption">encryption</a> of private
-messages and <a href="https://en.wikipedia.org/wiki/Digital_signature">signing</a> of
-documents, code, public messages.</p>
+standard</a> to
+<a href="https://en.wikipedia.org/wiki/Public-key_encryption">encrypt</a> private
+messages and <a href="https://en.wikipedia.org/wiki/Digital_signature">sign</a> documents,
+code, public messages.</p>
 
 <h2>The Master Key</h2>
 
@@ -37,6 +36,24 @@ master key.</p>
 
 <ul>
 <li>The key is attached here: <a href="/keys/sprin-master-key.asc">sprin-master-key.asc</a>.</li>
+</ul>
+
+<h2>sprin.io Email Key</h2>
+
+<p>The following key should be used to encrypt emails sent to steffen@sprin.io:</p>
+
+<pre><code>pub   4096R/E50CBEAE 2016-07-17 [expires: 2017-07-17]
+      Key fingerprint = B1C4 D150 72FC CD5E 21A0  728D 5E6A 10CE E50C BEAE
+uid                  Steffen Prince (sprin.io Email Key) &lt;steffen@sprin.io&gt;
+
+gpg&gt; check
+uid  Steffen Prince (sprin.io Email Key) &lt;steffen@sprin.io&gt;
+sig!3        E50CBEAE 2016-07-17  [self-signature]
+sig!         3006E021 2016-07-17  Steffen Prince (Master Signing Key) &lt;steffen@s
+</code></pre>
+
+<ul>
+<li>The key is attached here: <a href="/keys/sprin-io-email-key.asc">sprin-io-email-key.asc</a></li>
 </ul>
 
 <h2>sprin.io Code Signing Key</h2>

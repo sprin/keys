@@ -1,11 +1,10 @@
 # Keys of Steffen Prince (sprin) &lt;<steffen@sprin.io>&gt;
 
 I use tools based on [the OpenPGP
-standard](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) and [the
-X.509 standard](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) to
-do [encryption](https://en.wikipedia.org/wiki/Public-key_encryption) of private
-messages and [signing](https://en.wikipedia.org/wiki/Digital_signature) of
-documents, code, public messages.
+standard](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) to
+[encrypt](https://en.wikipedia.org/wiki/Public-key_encryption) private
+messages and [sign](https://en.wikipedia.org/wiki/Digital_signature) documents,
+code, public messages.
 
 ## The Master Key
 
