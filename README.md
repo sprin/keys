@@ -26,6 +26,23 @@ master key.
 
 * The key is attached here: [sprin-master-key.asc](/keys/sprin-master-key.asc).
 
+## sprin.io Email Key
+
+The following key should be used to encrypt emails sent to steffen@sprin.io:
+
+```
+pub   4096R/E50CBEAE 2016-07-17 [expires: 2017-07-17]
+      Key fingerprint = B1C4 D150 72FC CD5E 21A0  728D 5E6A 10CE E50C BEAE
+uid                  Steffen Prince (sprin.io Email Key) <steffen@sprin.io>
+
+gpg> check
+uid  Steffen Prince (sprin.io Email Key) <steffen@sprin.io>
+sig!3        E50CBEAE 2016-07-17  [self-signature]
+sig!         3006E021 2016-07-17  Steffen Prince (Master Signing Key) <steffen@s
+```
+
+* The key is attached here: [sprin-io-email-key.asc](/keys/sprin-io-email-key.asc)
+
 ## sprin.io Code Signing Key
 
 The following key is used to sign projects managed by sprin.io:
